@@ -52,12 +52,8 @@
   width: 25%;
   line-height: 5rem;
   border: 2px solid black;
-  overflow-y: scroll;
-  overflow-wrap: break-word;
   font-size: 1.8rem;
-  border-radius: 10px;
   color: white;
-  background-color: #5b0c5f;
   display: inline-block;
   box-shadow: white 5px ;
 

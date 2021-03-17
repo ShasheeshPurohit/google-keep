@@ -47,7 +47,7 @@ function App() {
   } 
 
   function colorChangeHandler(event){
-    console.log(event)
+
     setNoteColorVal(event)
     getColorVal();
 
