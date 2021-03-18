@@ -1,40 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.noteBox{
+.noteBox {
     margin-top: 5rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     border: 2px solid black;
-    width: 50%;
+    width: 50rem;
+    height: 15rem;
     border-radius: 15px;
     background-color: #5b0c5f;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
-.note-title{
+.note-title {
     align-self: flex-start;
     margin: 1rem;
     width: 40%;
- 
+
     background: none;
     border: none;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 0.5rem;
     outline: none;
 }
 
-.noteHeader{
+.noteHeader {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
 
-.buttonPost{
+.buttonPost {
     background: none;
     border: none;
     color: black;
@@ -45,17 +46,17 @@
     outline: none;
 }
 
-.note-body{
+.note-body {
     width: 100%;
     padding: 0.5rem;
     background: none;
     border: none;
     font-size: 2rem;
     outline: none;
-  }
+}
 
 
-.colorBox{
+.colorBox {
     width: 8rem;
     letter-spacing: 5px;
     font-size: 1.2rem;
@@ -63,7 +64,3 @@
     display: flex;
     justify-content: space-between;
 }
-
-  
-
-  
