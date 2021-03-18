@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.App{
+    font-size: 10px;
+}
+
 .noteBox {
     margin-top: 5rem;
     display: flex;
