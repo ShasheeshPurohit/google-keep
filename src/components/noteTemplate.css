@@ -7,6 +7,9 @@
 
 .noteTemplate{
     height: 25rem;
+    word-wrap: break-word;
+    padding: 1rem;
+
     
 }
 
