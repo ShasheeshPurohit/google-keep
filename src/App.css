@@ -1,12 +1,12 @@
-*{
-   font-size: 10px;
+* {
+  font-size: 10px;
 }
 
 .App {
   text-align: center;
   display: flex;
   justify-content: center;
- 
+
   width: 100%;
   align-items: center;
   flex-direction: column;
@@ -20,6 +20,61 @@
   }
 }
 
+
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+.main--heading {
+  color: #561fa8;
+  font-size: 4rem;
+  margin-top: 5rem;
+  animation: spin 2s;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
 .App-header {
   min-height: 100vh;
   background-color: #363636;
@@ -31,52 +86,8 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-
-
-
-
-.main--heading{
-  color: #561fa8;
-  font-size: 4rem;
-  margin-top: 5rem;
-  animation: spin 2s;
-}
-
-@keyframes spin {
-  100% {transform: rotate(360deg);}
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(255, 255, 255); 
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #ffffff; 
+.note .postedNotesSection {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap
 }
