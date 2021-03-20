@@ -1,16 +1,15 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 
 .noteTemplate{
-    height: 25rem;
+    height: 250rem;
     word-wrap: break-word;
     padding: 1rem;
 
     
+}
+
+.pinnedNotesSection{
+    width: 100%;
 }
 
 

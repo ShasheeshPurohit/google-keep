@@ -1,5 +1,5 @@
 *{
-  font-size: 10px;
+   font-size: 10px;
 }
 
 .App {
@@ -46,17 +46,6 @@
 
 
 
-.notePostedBox{
-  margin-top: 5rem;
-  width: 25%;
-  line-height: 5rem;
-  border: 2px solid black;
-  font-size: 1.8rem;
-  color: white;
-  display: inline-block;
-  box-shadow: white 5px ;
-
-}
 
 
 
