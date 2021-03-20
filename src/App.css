@@ -86,8 +86,7 @@
   color: white;
 }
 
-.note .postedNotesSection {
-  width: 100%;
+.postedNotesSection{
   display: flex;
-  flex-wrap: wrap
 }
+
