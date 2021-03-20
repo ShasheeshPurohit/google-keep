@@ -66,10 +66,10 @@ function App() {
   return (
     <div className="App">
       <h1 style={{color: getColorVal()}} className="main--heading">NoteLify</h1>
-      <div className="noteMakerBox">
+      {/* <div className="noteMakerBox"> */}
       <NoteCreator noteTitleHandler={event=>noteTitleHandler(event.target.value)} noteBodyHandler={event=>noteBodyHandler(event.target.value)} postButtonHandler={postButtonHandler} noteTitleValue={noteTitleValue} noteBodyValue={noteBodyValue} colorChangeHandler={event=>colorChangeHandler(event.target.value)} backgroundColorValue = {getColorVal()} inputColorVal={postedNotes.length === 0 ? "#5b0c5f" : getColorVal()}
     />
-      </div>
+      {/* </div> */}
       <div className="pinnedNotesSection">
       {
         pinnedNotes.map((item)=>{
